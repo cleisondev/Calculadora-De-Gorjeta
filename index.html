@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/f295abeebc.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+     
+        <form action="">
+        
+        <div class="bill">
+            <div class="billTotal">
+                <label for="billTotal">Valor Total</label>
+                <br>
+                <input id="text" type="text" onkeyup="calculateBill()" placeholder="$0.00">
+                <br>
+            </div>
+            <br>
+            <div>
+                <label for="tip">Gorjeta</label>
+                <br>
+                <input id="text1" type="text" onkeyup="calculateBill()" placeholder="%10">
+            </div> 
+         </div>  
+
+         <div class="value" >
+            <div class="people">
+                <p>Pessoas</p>
+
+                <div class="icons">
+                    <i class="fa-solid fa-circle-plus" id="plus" onclick="increase()" ></i>
+                    <p id="picon" >1</p>
+                    <i class="fa-solid fa-circle-minus" id="minus" onclick="decrease()"></i>
+                 </div>
+
+           </div>
+
+            <div class="valueI">
+                <p>Total por Pessoa</p>
+                <p id="cifra">R$0.00</p>
+            </div>
+
+        </div>
+        </form>
+
+        
+
+
+        
+        <script src="/app.js" async defer></script>
+    </body>
+</html>

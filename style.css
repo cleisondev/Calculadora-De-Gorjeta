@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 96vh;
+    background-color: rgb(138, 145, 250);
+}
+
+form{
+    background-color: rgb(54, 62, 79);
+    width: 250px;
+    min-width: 20%;
+    height: 400px;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 10px;
+    
+}
+
+
+.bill{
+    display: block;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 20px;
+    margin-top: 45px;
+    
+}
+
+.value{
+ display: flex;
+ justify-content: space-between;
+ 
+}
+
+.people{
+    margin-left: 15px;
+}
+
+.valueI{
+    margin-right: 15px;
+    gap: 8rem;
+}
+
+.fa-solid{
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+   
+}
+
+.icons{
+    display: flex;
+    
+    gap: 0.5rem;
+}
+
+button{
+    background-color: none;
+    padding-top: 0;
+}
+
+input{
+    border-radius: 10px;
+    border: none;
+    padding: 3px;
+    outline: none;
+}
+
+#picon{
+    font-size: 20px;
+    margin-top: 17px;
+    cursor: pointer;
+}
+
+
+#cifra{
+    font-size: 25px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
+#text{
+    margin-top: 7px;
+    width: 100%;
+}
+
+#text1{
+    margin-top: 7px;
+    width: 100%;
+}
+
+#peopleP{
+    display: flex;
+    justify-content: flex-start;
+}
